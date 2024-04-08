@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
 {
     private float topBound = 30.0f;
     private float lowerBound = -10.0f;
-
+    private const string gameOver = "GamerOver";
     // Update is called once per frame
     void Update()
     {
